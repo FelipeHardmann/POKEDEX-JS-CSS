@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: ease-in .5s, transfom .5s;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+div#app, div#app-forms{
+    width: auto;
+    height:auto;
+    background-color:brown;
+}
+
+div#app{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+div#app-forms{
+    display: flex;
+    flex-direction: row;
+}
+
+div.title{
+    margin: auto;
+    width: 95%;
+    color: antiquewhite;
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 10px;
+    background-color: grey;
+    border-radius: 20px;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.side{
+    padding-top: 10px;
+    margin: auto;
+    width: 45%;
+    height: 700px;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+div#side-left{
+    
+    border: 10px;
+    background-color: darkblue;
+}
+
+div#side-right{
+    border: 10px;
+    
+}
+
+
+label{
+    margin: 10px;
+    padding-left: 10px;
+    color: aliceblue;
+}
+
+.box{
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+}
+
+input, select, button{
+    
+    line-height: 1.5em;
+    border-radius: 20px;
+    padding: 4px 8px;
+}
+
+select{
+    width: 95%;
+    height: 5%;
+    
+}
+
+input{
+    width: 90%;
+}
+
+
+
+button{
+    font-size: 1em;
+    font-weight: 500;
+    border: 12px;
+    
+}
+
+button:hover{
+    background-color: darkred
+}
+
+div.card{
+    width: 95%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.card .http-img{
+    width: 90px;
+    height: 90px;
+    margin: auto 20px auto;
+    padding: 10px;
+    border: 2px outset black;
+    border-radius: 20px;
+    background-color: white;
+}
+
+div.cardInformacoes{
+    border-radius: 20px;
+    border: 5px solid black;
+    padding: 10px;
+    color: black;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background: brown;
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: darkblue;
+    border-radius: 30px;
+}
